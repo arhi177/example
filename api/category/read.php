@@ -13,6 +13,7 @@ $db = $database->getConnection();
 
 // инициализация объекта 
 $category = new Category($db);
+// scasscasc
 
 // запрос для категорий 
 $stmt = $category->read();
